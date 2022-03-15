@@ -33,4 +33,8 @@ file 8-24_hours.c Write a function that prints every minute of the day of Jack B
 Prototype: void jack_bauer(void);
 You can listen to this soundtrack while coding :)
 
+file 9-times_table.c Write a function that prints the 9 times table, starting with 0.
+Prototype: void times_table(void);
+
+
 
