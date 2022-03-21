@@ -23,4 +23,9 @@ file 7-puts_half.c Write a function that prints half of a string, followed by a 
 
 file 8-print_array.c file 8Write a function that prints n elements of an array of integers, followed by a new line.
 
+file 9-strcpy.c  Prototype: char *_strcpy(char *dest, char *src);
+Write a function that copies the string pointed to by src, including the terminating null byte (\0), to the buffer pointed to by dest.
+Return value: the pointer to dest
+
+
 
