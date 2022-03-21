@@ -17,4 +17,6 @@ Prototype: void print_rev(char *s);
 
 file 5-rev_string.c Write a function that reverses a string.
 
+file 6-puts2.c Write a function that prints every other character of a string, starting with the first character, followed by a new line.
+
 
