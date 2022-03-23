@@ -14,3 +14,9 @@ file 2-strncpy.c Write a function that copies a string.
 Prototype: char *_strncpy(char *dest, char *src, int n);
 Your function should work exactly like strncpy
 FYI: The standard library provides a similar function: strncpy. Run man strncpy to learn more.
+
+file 3-strcmp.c Write a function that compares two strings.
+Prototype: int _strcmp(char *s1, char *s2);
+Your function should work exactly like strcmp
+
+
