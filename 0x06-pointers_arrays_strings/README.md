@@ -26,4 +26,6 @@ Where n is the number of elements of the array
 file 5-string_toupper.c Write a function that changes all lowercase letters of a string to uppercase.
 Prototype: char *string_toupper(char *);
 
-
+file 6-cap_string.c Write a function that capitalizes all words of a string.
+Prototype: char *cap_string(char *);
+Separators of words: space, tabulation, new line, ,, ;, ., !, ?, ", (, ), {, and }
