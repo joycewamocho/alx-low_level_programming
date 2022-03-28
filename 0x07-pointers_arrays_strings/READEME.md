@@ -33,4 +33,7 @@ file 8-print_diagsums.c Write a function that prints the sum of the two diagonal
 Prototype: void print_diagsums(int *a, int size);
 Format: see example
 You are allowed to use the standard library
+
+file 100-set_string.c  Write a function that sets the value of a pointer to a char.
+
  
