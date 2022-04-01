@@ -1,2 +1,3 @@
-file libmy.a acts as static library
+#creatin of static library
+Create the static library libmy.a 
 
