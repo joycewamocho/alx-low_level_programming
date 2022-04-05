@@ -1,24 +1,33 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "main.h"
 /**
- * create_array - create array
- * @size: size
- * @c: constant
- * Return: char pointer
+ *_strdup - returns a pointer to a copy of string
+ *
+ *@str:string parameter
+ *
+ *Return:NULL(fail),pointer
  */
-char *create_array(unsigned int size, char c)
+char *_strdup(char *str)
 {
-	char *p;
-	unsigned int i;
+	int i = 0, len = 0;
+	char *s;
 
-	if (size == 0)
-	return (0);
-	p = malloc((size) * sizeof(char));
-	if (p == '\0')
-	return (0);
-	for (i = 0; i < size; i++)
+	if (str == NULL)
 	{
-		p[i] = c;
+		return (NULL);
 	}
-return (p);
+	for (i = 0; str[i] != '\0'; i++)
+		len++;
+	s = malloc(sizeof(char) * (len + 1));
+	if (s == NULL)
+	{
+		return (NULL);
+	}
+	for (i = 0; str[i]; i++)
+	{
+		s[i] = str[i];
+	}
+	s[len] = '\0';
+	return (s);
 }
