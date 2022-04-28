@@ -31,4 +31,8 @@ file 5-flip_bits.c  Write a function that returns the number of bits you would n
 Prototype: unsigned int flip_bits(unsigned long int n, unsigned long int m);
 You are not allowed to use the % or / operators
 
+file 100-get_endianness.c Write a function that checks the endianness.
+: int get_endianness(void);
+Returns: 0 if big endian, 1 if little endian 
+
 
